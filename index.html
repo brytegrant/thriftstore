@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | thrift Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-top">
+                <a class="brand" href="index.html"><span style="font-weight: 600; color: #fff;">THRIFT STORE</span></a>
+
+                <nav class="desktop" aria-label="Primary navigation">
+                    <ul class="nav-ul">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <label class="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">☰</label>
+            </div>
+
+            <div id="mobile-menu" class="mobile-nav" aria-hidden="true">
+                <nav aria-label="Mobile primary navigation">
+                    <ul class="nav-ul">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <section class="hero" aria-label="Hero">
+            <video class="hero-video" autoplay muted loop playsinline poster="img/featured/my cap.jfif">
+                <source src="#" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-dim" aria-hidden="true"></div>
+            <div class="hero-overlay">
+                <h1 class="hero-title" style="color: whitesmoke;">Best Online Thrift Stores</h1>
+                <p class="hero-sub">Quality thrift wears &amp; Where fashion meets sustainability.</p>
+                <p style="margin-top:0.9rem"><a class="btn btn-primary" href="shop.html">Shop Now</a></p>
+            </div>
+        </section>
+
+        <!-- Sliding images -->
+        <section id="slider">
+            <h4 style="text-align: center; padding: 2rem 2rem; margin: 0; font-size: 1.35rem; color: rgb(255, 255, 255); background: rgb(214, 112, 192);">New Arrivals</h5>
+                <div class="slider-container">
+                    <button class="nav-btn left" type="button" aria-label="Scroll left" 
+                    onclick="scrollSlider(-1)">&#10094;</button>
+                <div class="slider" id="productSlider">
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 1.jfif" alt="SUME TOP"><br></a>
+                <h4>sume top</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">500.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 2.jfif" alt="222 MEN TOP"></a>
+                <h4>222 MEN</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">300.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 3.jfif" alt="PANT AND BRA-CK"></a>
+                <h4>CK UNDERWEAR</h4><br></a>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">7,00.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 4.jfif" alt="adidas Sneaker"></a>
+                <h4>Adidas Sneaker</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">200.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 5.jfif" alt="Men Boxers"></a>
+                <h4>Boxer Shorts men"</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">250.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 6.jfif" alt="side pocket trouser"></a>
+                <h4></h4>side pocket trouser<br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">500.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 7.jfif" alt="straight dress ladies"></a>
+                <h4>ladies straight dress</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">100.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/featured/featured 8.jfif" alt="mens jacket"></a>
+                <h4>Mens jacket wear</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">150.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+           
+
+            <button class="nav-btn right" type="button" aria-label="Scroll right" 
+            onclick="scrollSlider(1)">&#10095;</button>
+            </div>
+        </section>
+
+
+        <!-- product section -->
+        <section id="items">
+            <h4 style="text-align: center; padding: 2rem 2rem; margin: 0; font-size: 1.35rem; background-color: rgb(214, 112, 192); color: rgb(255, 255, 255);">Products Showcase</h4>
+            <div class="items-grid">
+                <div class="items-card">
+                    <a href="#"><img src="img/featured/download (3).jfif" alt="MENS TOP"></a>
+                    <h4>MENS top</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">150.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/featured/download (32).jfif" alt="NIKE BAG PACK"></a>
+                    <h4>NIKE BAG PACK</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">100.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/featured/download (4).jfif" alt="longsleeves top"></a>
+                    <h4>longsleeves TOP</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">350.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/featured/Romper 2piece set👗✨.jfif" alt="Ladies Dior wear"></a>
+                    <h4>Ladies Dior wear</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">100.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/featured/New Releases.jfif" alt="long skirt wear"></a>
+                    <h4>long skirt wear</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">200.00</span></p></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                
+                
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <a class="brand" href="index.html"><img src="img/featured/Best Online Thrift Stores.jfif" alt="logo" style="height:36px;">Thrift Store</a><br>
+                <p><strong>Thrift Store</strong><br>Quality products, fair prices, fast local delivery across Ghana.</p><br>
+                <div class="newsletter">
+                    <h4 style="margin-top:0.6rem">Subscribe</h4>
+                    <form id="newsletterForm" class="newsletter-form" action="#" novalidate>
+                        <input id="newsletterEmail" type="email" placeholder="Your email address" aria-label="Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <small id="newsletterMsg" style="display:none;color:#9aa4b2;margin-top:0.4rem;"></small>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Support</h4>
+                <ul class="footer-links">
+                    <li><a href="help.html">Help Center</a></li>
+                    <li><a href="contact.html">Chat with us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="#">Delivery & Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">How to buy</a></li>
+                    <li><a href="#">Service Centers</a></li>
+                    <li><a href="#">Corporate & Bulk</a></li>
+                    <li><a href="#">Report a Product</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Sell With Us</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Sell on Vivian Beauty Cosmetics</a></li>
+                    <li><a href="#">Vendor Hub</a></li>
+                    <li><a href="#">Service Charges</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div class="payments">
+                <small style="color:#9aa4b2;margin-right:0.5rem">Payment methods:</small>
+                <img src="img/logos/visa.jpg" alt="Visa" style="height:22px;opacity:0.95;">
+                <img src="img/logos/mastercard.png" alt="Mastercard" style="height:22px;opacity:0.95;">
+                <img src="img/logos/momo.jpeg" alt="Mobile Money" style="height:22px;opacity:0.95;">
+            </div>
+            <div class="socials">
+                <small style="color:#9aa4b2;margin-right:0.5rem">Follow us:</small>
+                <a href="www.facebook.com"><img src="img/logos/facebook.png" alt="Facebook"></a>
+                <a href="www.x.com"><img src="img/logos/twitter.png" alt="Twitter"></a>
+                <a href="www.instagram.com"><img src="img/logos/instagram.png" alt="Instagram"></a>
+            </div>
+            <div style="width:100%;text-align: center;color:#9aa4b2; margin-top:0.6rem" >&copy; 2026 Vivian Beauty Cosmetics. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

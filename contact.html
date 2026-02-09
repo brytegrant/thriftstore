@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Thrift Store</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-top">
+                <a class="brand" href="index.html"><span style="font-weight: 600; color: #fff;">THRIFT STORE</span></a>
+
+                <nav class="desktop" aria-label="Primary navigation">
+                    <ul class="nav-ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+
+            <label class="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">☰</label>
+            </div>
+
+            <div id="mobile-menu" class="mobile-nav" aria-hidden="true">
+                <nav aria-label="Mobile primary navigation">
+                    <ul class="nav-ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main style="padding-top:84px;">
+        <section class="hero2" style="text-align:center;padding:48px 16px;background:linear-gradient(180deg, rgba(121,49,49,0.04), transparent);">
+            <div style="max-width:1100px;margin:0 auto;">
+                <h1 style="font-size:28px;margin-bottom:8px; color: rgb(214, 112, 192);">Contact Thrift Store</h1>
+                <p style="color:#444;max-width:760px;margin:0.5rem auto;">Questions about products, orders or deliveries? <br>Send us a message and we'll reply within 48 hours.</p>
+            </div>
+        </section>
+
+        <section style="padding:28px 16px;">
+            <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;align-items:start;">
+                <div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+                    <h2 style="margin-bottom:8px;color:#222;">Get in touch</h2><br>
+                    <p style="color:#333;margin-bottom:6px;"><strong>Email:</strong> Brytegrant99@gmail.com</p>
+                    <p style="color:#333;margin-bottom:6px;"><strong>Phone:</strong> +233 20 380 4975</p>
+                    <p style="color:#333;margin-bottom:12px;"><strong>Address:</strong> Afienya</p><br>
+                    <p style="color:#555;line-height:1.6;">Our support team is available Monday to Friday. <br>For faster service, include your order number in the message.</p>
+                </div>
+
+                <div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+                    <h2 style="margin-bottom:8px;color:#222;">Send us a message</h2>
+                    <form action="contact.php" method="post" style="display:flex;flex-direction:column;gap:10px;">
+                        <label style="font-weight:600;color:#222;">Name
+                            <input name="name" type="text" required style="width:100%;padding:8px 10px;border:1px solid #e6e6e6;border-radius:6px;font-size:14px;margin-top:6px;" />
+                        </label>
+
+                        <label style="font-weight:600;color:#222;">Email
+                            <input name="email" type="email" required style="width:100%;padding:8px 10px;border:1px solid #e6e6e6;border-radius:6px;font-size:14px;margin-top:6px;" />
+                        </label>
+
+                        <label style="font-weight:600;color:#222;">Message
+                            <textarea name="message" rows="5" required style="width:100%;padding:8px 10px;border:1px solid #e6e6e6;border-radius:6px;font-size:14px;margin-top:6px;"></textarea>
+                        </label>
+
+                        <button type="submit" style="background:#111;color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;max-width:220px;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer style="background:rgb(214, 112, 192);color:#ddd;padding:18px 0;text-align:center;margin-top:28px;">
+            <div style="max-width:1100px;margin:0 auto;padding:0 16px;">
+                <p>&copy; 2026 Thrift Store — We aim to respond within 48 hours.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
